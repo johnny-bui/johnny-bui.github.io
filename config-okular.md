@@ -6,9 +6,11 @@ Editor: Custom Text Editor
 Command: There are some configurations for diverse not listed editor:
 
 * gvim 
+
     `gvim --remote-tab-silent +%l %f`
 
 * texmaker
+
     `texmaker -use -line %l -column %c`
 
 
