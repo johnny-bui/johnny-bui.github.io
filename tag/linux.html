@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 </head>
 
@@ -14,23 +14,26 @@
         <header id="banner" class="body">
                 <h1><a href="/">JB's Blog </a></h1>
                 <nav><ul>
-                    <li><a href="/pages/about.html">About</a></li>
-                </ul></nav>
+    
+                        <li><a href="/pages/about.html">About</a></li>
+                </ul>
+                </nav>
+<div id="submenu">
+                    <ul>
+                            <li><a href="/category/_programming.html">_Programming</a></li>
+                            <li><a href="/category/_rewiew.html">_Rewiew</a></li>
+                            <li><a href="/category/others.html">Others</a></li>
+                    </ul>
+                <div>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
                     <h1 class="entry-title"><a href="/configure-okular-to-search-backward-a-tex-file-from-a-pdf-file.html">Configure Okular to search backward a TeX file from a PDF file</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2015-12-22T23:00:00+01:00">
-                Published: Tue 22 December 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/jb.html">JB</a>
-        </address>
-<p>In <a href="/category/others.html">Others</a>.</p>
-<p>tags: <a href="/tag/linux.html">linux</a> <a href="/tag/kde.html">kde</a> <a href="/tag/tex.html">tex</a> <a href="/tag/vim.html">vim</a> </p>
+        <span>Tue 22 December 2015</span>
+	        <span>| in <a href="/category/others.html">Others</a></span>
+<span>| tags: <a href="/tag/linux.html">linux</a><a href="/tag/kde.html">kde</a><a href="/tag/tex.html">tex</a><a href="/tag/vim.html">vim</a></span>
 </footer><!-- /.post-info --><h1>Short Version</h1>
 <p>Setting -&gt; Configure Okular -&gt; Editor -&gt; </p>
 <p>Editor: Custom Text Editor
@@ -51,7 +54,12 @@ with holding shift, Okular will open your editor (here gVim or kate)
 with the tex file, let the cursor of the editor jump to the position, 
 which matches the clicked position of the PDF file.</p>
 <p>So Happy texing!.</p>                </article>
+<p class="paginator">
+    Page 1 / 1
+</p>
             </aside><!-- /#featured -->
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>
@@ -71,11 +79,7 @@ which matches the clicked position of the PDF file.</p>
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
         </footer><!-- /#contentinfo -->
 
 </body>
