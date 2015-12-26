@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>JB's Blog - vim</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">JB's Blog </a></h1>
+                <nav><ul>
+                    <li><a href="/pages/about.html">About</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/configure-okular-to-search-backward-a-tex-file-from-a-pdf-file.html">Configure Okular to search backward a TeX file from a PDF file</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2015-12-22T23:00:00+01:00">
+                Published: Tue 22 December 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/jb.html">JB</a>
+        </address>
+<p>In <a href="/category/others.html">Others</a>.</p>
+<p>tags: <a href="/tag/linux.html">linux</a> <a href="/tag/kde.html">kde</a> <a href="/tag/tex.html">tex</a> <a href="/tag/vim.html">vim</a> </p>
+</footer><!-- /.post-info --><h1>Short Version</h1>
+<p>Setting -&gt; Configure Okular -&gt; Editor -&gt; </p>
+<p>Editor: Custom Text Editor
+Command: There are some configurations for diverse not listed editor.</p>
+<ul>
+<li>For gvim: <code>gvim --remote-tab-silent +%l %f</code></li>
+<li>For texmaker: <code>texmaker -use -line %l -column %c</code></li>
+</ul>
+<h1>Long Version</h1>
+<p>Latex supports reverse search. That is, once you compile your Latex
+Document with the option <code>-synctex=1</code>, the Latex compiler will write 
+a file name <code>*.synctex.gz</code>. Some PDF Viewer can read this file when it
+open a PDF File, and open a editor, lets the cursor of the Editor jump
+to a position of the tex file. One of these PDF Viewer is Okular.</p>
+<p>With the configuration in the <a href="# Short Version">Short Version</a>
+you can use Okular as your PDF Viewer, once you click on the document
+with holding shift, Okular will open your editor (here gVim or kate)
+with the tex file, let the cursor of the editor jump to the position, 
+which matches the clicked position of the PDF file.</p>
+<p>So Happy texing!.</p>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://stackoverflow.com/users/1564008/lazyboy">Stackoverflow</a></li>
+                            <li><a href="https://github.com/johnny-bui">Github</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
