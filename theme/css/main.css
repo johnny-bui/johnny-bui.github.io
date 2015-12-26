@@ -322,7 +322,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #extras {
 	margin: 0 auto 0 auto;
 	overflow: hidden;
-	background: #000305;
+	background: hsla(0, 0%, 52%, 0.33);
 	border-radius: 0 0 10px 10px;
 	-moz-border-radius: 0 0 10px 10px;
 	-webkit-border-radius: 0 0 10px 10px;
@@ -382,6 +382,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		#extras .social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
 		#extras .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
 		#extras .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
+		#extras .social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
 
 
 /*
